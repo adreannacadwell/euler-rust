@@ -1,4 +1,4 @@
-CC = gcc
+GCC = gcc
 AR = ar
 RUSTC = rustc
 
@@ -12,7 +12,7 @@ OBJ = main.o
 all: $(TARGET)
 
 $(OBJ): main.c
-	$(CC) $(CFLAGS) -c main.c -o $(OBJ)
+	$(GCC) $(CFLAGS) -c main.c -o $(OBJ)
 
 $(LIB): $(OBJ)
 	$(AR) rcs $(LIB) $(OBJ)
