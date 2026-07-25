@@ -1,1 +1,23 @@
+# Rust
+target/
+Cargo.lock
+
+# C / build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
 *.exe
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
